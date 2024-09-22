@@ -2,7 +2,7 @@ import time
 import requests
 import random
 
-THINGSPEAK_API_KEY = '5UG7II4VH442RFNQ'  # Replace with your actual API key
+THINGSPEAK_API_KEY = 'Your API Key'  # Replace with your actual API key
 THINGSPEAK_URL = 'https://api.thingspeak.com/update'
 
 def send_data_to_thingspeak(temperature=None, soil=None, voltage=None):
